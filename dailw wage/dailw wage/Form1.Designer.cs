@@ -42,6 +42,8 @@
             this.hoursDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.wageDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.desiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.wageBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.database1DataSet2 = new dailw_wage.Database1DataSet2();
             this.wageBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.database1DataSet1 = new dailw_wage.Database1DataSet1();
             this.dailyBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -51,20 +53,19 @@
             this.id = new System.Windows.Forms.TextBox();
             this.wageTableAdapter = new dailw_wage.Database1DataSet1TableAdapters.wageTableAdapter();
             this.save = new System.Windows.Forms.Button();
-            this.database1DataSet2 = new dailw_wage.Database1DataSet2();
-            this.wageBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.wageTableAdapter1 = new dailw_wage.Database1DataSet2TableAdapters.wageTableAdapter();
             this.manager = new System.Windows.Forms.RadioButton();
             this.supervisor = new System.Windows.Forms.RadioButton();
             this.worker = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dailywage = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.wageBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.wageBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.database1DataSet1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dailyBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.database1DataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.wageBindingSource1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -179,6 +180,16 @@
             this.desiDataGridViewTextBoxColumn.HeaderText = "desi";
             this.desiDataGridViewTextBoxColumn.Name = "desiDataGridViewTextBoxColumn";
             // 
+            // wageBindingSource1
+            // 
+            this.wageBindingSource1.DataMember = "wage";
+            this.wageBindingSource1.DataSource = this.database1DataSet2;
+            // 
+            // database1DataSet2
+            // 
+            this.database1DataSet2.DataSetName = "Database1DataSet2";
+            this.database1DataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
             // wageBindingSource
             // 
             this.wageBindingSource.DataMember = "wage";
@@ -233,16 +244,6 @@
             this.save.UseVisualStyleBackColor = true;
             this.save.Click += new System.EventHandler(this.save_Click);
             // 
-            // database1DataSet2
-            // 
-            this.database1DataSet2.DataSetName = "Database1DataSet2";
-            this.database1DataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // wageBindingSource1
-            // 
-            this.wageBindingSource1.DataMember = "wage";
-            this.wageBindingSource1.DataSource = this.database1DataSet2;
-            // 
             // wageTableAdapter1
             // 
             this.wageTableAdapter1.ClearBeforeFill = true;
@@ -292,11 +293,22 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
+            // dailywage
+            // 
+            this.dailywage.Location = new System.Drawing.Point(304, 210);
+            this.dailywage.Name = "dailywage";
+            this.dailywage.Size = new System.Drawing.Size(99, 29);
+            this.dailywage.TabIndex = 16;
+            this.dailywage.Text = "dailywage";
+            this.dailywage.UseVisualStyleBackColor = true;
+            this.dailywage.Click += new System.EventHandler(this.dailywage_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(802, 392);
+            this.Controls.Add(this.dailywage);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.save);
             this.Controls.Add(this.id);
@@ -314,12 +326,12 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.wageBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.wageBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.database1DataSet1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dailyBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.database1DataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.database1DataSet2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.wageBindingSource1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -358,6 +370,7 @@
         private System.Windows.Forms.RadioButton supervisor;
         private System.Windows.Forms.RadioButton worker;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button dailywage;
     }
 }
 

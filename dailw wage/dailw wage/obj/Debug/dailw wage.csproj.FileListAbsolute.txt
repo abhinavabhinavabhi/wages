@@ -10,3 +10,6 @@ E:\abhinav\dailw wage\dailw wage\obj\Debug\dailw wage.csproj.GenerateResource.ca
 E:\abhinav\dailw wage\dailw wage\obj\Debug\dailw wage.csproj.CoreCompileInputs.cache
 E:\abhinav\dailw wage\dailw wage\obj\Debug\dailw wage.exe
 E:\abhinav\dailw wage\dailw wage\obj\Debug\dailw wage.pdb
+E:\abhinav\dailw wage\dailw wage\bin\Debug\Database2.mdf
+E:\abhinav\dailw wage\dailw wage\bin\Debug\Database2_log.ldf
+E:\abhinav\dailw wage\dailw wage\obj\Debug\dailw_wage.wages.resources

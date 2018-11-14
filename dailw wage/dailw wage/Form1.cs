@@ -86,5 +86,11 @@ namespace dailw_wage
             dataGridView1.DataSource = bs;
 
         }
+
+        private void dailywage_Click(object sender, EventArgs e)
+        {
+            wages f1 = new wages();
+            f1.Show();
+        }
     }
 }
