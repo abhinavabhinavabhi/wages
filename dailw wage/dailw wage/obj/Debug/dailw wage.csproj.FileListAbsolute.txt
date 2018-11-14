@@ -1,0 +1,12 @@
+E:\abhinav\dailw wage\dailw wage\bin\Debug\Database1.mdf
+E:\abhinav\dailw wage\dailw wage\bin\Debug\Database1_log.ldf
+E:\abhinav\dailw wage\dailw wage\bin\Debug\dailw wage.exe.config
+E:\abhinav\dailw wage\dailw wage\bin\Debug\dailw wage.exe
+E:\abhinav\dailw wage\dailw wage\bin\Debug\dailw wage.pdb
+E:\abhinav\dailw wage\dailw wage\obj\Debug\dailw wage.csprojAssemblyReference.cache
+E:\abhinav\dailw wage\dailw wage\obj\Debug\dailw_wage.Form1.resources
+E:\abhinav\dailw wage\dailw wage\obj\Debug\dailw_wage.Properties.Resources.resources
+E:\abhinav\dailw wage\dailw wage\obj\Debug\dailw wage.csproj.GenerateResource.cache
+E:\abhinav\dailw wage\dailw wage\obj\Debug\dailw wage.csproj.CoreCompileInputs.cache
+E:\abhinav\dailw wage\dailw wage\obj\Debug\dailw wage.exe
+E:\abhinav\dailw wage\dailw wage\obj\Debug\dailw wage.pdb
