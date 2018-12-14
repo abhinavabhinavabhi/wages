@@ -1,0 +1,9 @@
+E:\abhinav\files\files\bin\Debug\files.exe.config
+E:\abhinav\files\files\bin\Debug\files.exe
+E:\abhinav\files\files\bin\Debug\files.pdb
+E:\abhinav\files\files\obj\Debug\files.csprojAssemblyReference.cache
+E:\abhinav\files\files\obj\Debug\files.csproj.CoreCompileInputs.cache
+E:\abhinav\files\files\obj\Debug\files.exe
+E:\abhinav\files\files\obj\Debug\files.pdb
+E:\abhinav\files\files\obj\Debug\files.Form1.resources
+E:\abhinav\files\files\obj\Debug\files.csproj.GenerateResource.cache
