@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dll", "dll\dll.csproj", "{FDCABEE6-0071-4F65-BCE9-DD0006D0D40B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculate", "calculate\calculate.csproj", "{BA9D2FE4-DF12-4578-9707-4CC71715D7E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary1", "ClassLibrary1\ClassLibrary1.csproj", "{07049686-38C5-430C-BA14-497443638C66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDCABEE6-0071-4F65-BCE9-DD0006D0D40B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCABEE6-0071-4F65-BCE9-DD0006D0D40B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCABEE6-0071-4F65-BCE9-DD0006D0D40B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCABEE6-0071-4F65-BCE9-DD0006D0D40B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA9D2FE4-DF12-4578-9707-4CC71715D7E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA9D2FE4-DF12-4578-9707-4CC71715D7E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA9D2FE4-DF12-4578-9707-4CC71715D7E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA9D2FE4-DF12-4578-9707-4CC71715D7E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07049686-38C5-430C-BA14-497443638C66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07049686-38C5-430C-BA14-497443638C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07049686-38C5-430C-BA14-497443638C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07049686-38C5-430C-BA14-497443638C66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5485F95A-83B0-47DD-83BA-2DF257F5D528}
+	EndGlobalSection
+EndGlobal

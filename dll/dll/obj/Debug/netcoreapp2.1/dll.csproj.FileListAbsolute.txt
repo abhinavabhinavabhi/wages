@@ -1,0 +1,11 @@
+E:\abhinav\dll\dll\bin\Debug\netcoreapp2.1\dll.deps.json
+E:\abhinav\dll\dll\bin\Debug\netcoreapp2.1\dll.runtimeconfig.json
+E:\abhinav\dll\dll\bin\Debug\netcoreapp2.1\dll.runtimeconfig.dev.json
+E:\abhinav\dll\dll\bin\Debug\netcoreapp2.1\dll.dll
+E:\abhinav\dll\dll\bin\Debug\netcoreapp2.1\dll.pdb
+E:\abhinav\dll\dll\obj\Debug\netcoreapp2.1\dll.csprojAssemblyReference.cache
+E:\abhinav\dll\dll\obj\Debug\netcoreapp2.1\dll.csproj.CoreCompileInputs.cache
+E:\abhinav\dll\dll\obj\Debug\netcoreapp2.1\dll.AssemblyInfoInputs.cache
+E:\abhinav\dll\dll\obj\Debug\netcoreapp2.1\dll.AssemblyInfo.cs
+E:\abhinav\dll\dll\obj\Debug\netcoreapp2.1\dll.dll
+E:\abhinav\dll\dll\obj\Debug\netcoreapp2.1\dll.pdb
