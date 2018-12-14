@@ -1,0 +1,12 @@
+E:\abhinav\server\server\bin\Debug\Database1.mdf
+E:\abhinav\server\server\bin\Debug\Database1_log.ldf
+E:\abhinav\server\server\bin\Debug\server.exe.config
+E:\abhinav\server\server\bin\Debug\server.exe
+E:\abhinav\server\server\bin\Debug\server.pdb
+E:\abhinav\server\server\obj\Debug\server.csprojAssemblyReference.cache
+E:\abhinav\server\server\obj\Debug\server.Form1.resources
+E:\abhinav\server\server\obj\Debug\server.Properties.Resources.resources
+E:\abhinav\server\server\obj\Debug\server.csproj.GenerateResource.cache
+E:\abhinav\server\server\obj\Debug\server.csproj.CoreCompileInputs.cache
+E:\abhinav\server\server\obj\Debug\server.exe
+E:\abhinav\server\server\obj\Debug\server.pdb
